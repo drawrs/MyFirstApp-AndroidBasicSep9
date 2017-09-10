@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.khilman.myfirstapp.RelativeActivity">
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BUTTON A"
+        android:id="@+id/btnA"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnA"
+        android:text="BUTTON B"
+        android:id="@+id/btnB"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnB"
+        android:text="BUTTON C"
+        android:id="@+id/btnC"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUTTON D"
+        android:id="@+id/btnD"
+        android:layout_alignBaseline="@+id/btnC"
+        android:layout_alignBottom="@+id/btnC"
+        android:layout_toRightOf="@+id/btnC"
+        android:layout_toEndOf="@+id/btnC" />
+    <Button
+        android:id="@+id/btnE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUTTON E"
+        android:layout_below="@+id/btnD"
+        android:layout_toRightOf="@+id/btnC"
+        android:layout_toEndOf="@+id/btnC"
+        />
+    <Button
+        android:id="@+id/btnF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUTTON F"
+        android:layout_alignBaseline="@+id/btnE"
+        android:layout_alignBottom="@+id/btnE"
+        android:layout_toRightOf="@+id/btnE"
+        android:layout_toEndOf="@+id/btnE" />
+
+</RelativeLayout>

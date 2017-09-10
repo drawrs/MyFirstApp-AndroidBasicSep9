@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="hijau">#2a7633</color>
+    <color name="tombolsimpan">#cbe56b</color>
+    <color name="tombolhapus">#ff3a3a</color>
+    <color name="putih">#FFF</color>
+    <color name="hitam">#000</color>
+    <color name="bg1">#89a723</color>
+    <color name="bg2">#7687e9</color>
+    <color name="bg3">#a77a08</color>
+    <color name="bg4">#e19de6</color>
+    <color name="bg5">#6acf18</color>
+    <color name="bg6">#b5beb5</color>
+    <color name="bg7">#5319ff</color>
+    <color name="bg8">#6666ff</color>
+</resources>
